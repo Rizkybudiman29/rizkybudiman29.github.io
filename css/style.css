@@ -1,0 +1,504 @@
+:root {
+    --pr-color: #397EB0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Style */
+.navbar {
+    z-index: 3;
+}
+
+/* Select All Component */
+* {
+    z-index: 2;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-color {
+    background-color: #397EB0;
+    transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+    transition: all ease-in-out 0.3s;
+}
+
+.button-primary {
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.button-secondary {
+    width: 133px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: white;
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Hero */
+#hero {
+    background-color: #397EB0;
+    height: 100vh;
+    width: 100%;
+}
+
+/* .img-hero {
+    height: 720px;
+    width: 1518px;
+} */
+
+.hero-tagline h1 {
+    margin-top: 90px;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.hero-tagline p {
+    color: white;
+    font-weight: regular;
+    font-size: 14px;
+}
+
+.button-lg-primary {
+    width: 190px;
+    height: 45px;
+    background-color: white;
+    color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Our Service */
+
+#ourService {
+    padding: 50px;
+}
+
+.ourservice {
+    color: #397EB0;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.findthebest {
+    color: white;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.nowyoucansave {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.sub-title {
+    font-size: 18px;
+    font-weight: regular;
+}
+
+.card-ourService {
+    color: black;
+    width: 100%;
+    height: 315px;
+    border-style: solid;
+    border-color: var(--pr-color);
+    border-radius: 15px;
+    background: white;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0, 05);
+    transition: all .1s ease-in;
+}
+
+.circle-icon {
+    width: 80px;
+    height: 80px;
+    background-color: var(--pr-color);
+    border-radius: 50%;
+    transition: all .1s ease-in;
+}
+
+/* Our Service Hover */
+
+.card-ourService:hover {
+    color: white;
+    width: 100%;
+    height: 315px;
+    border-radius: 15px;
+    background: linear-gradient(160deg, var(--pr-color), #20608E);
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0, 05);
+    transition: all .1s ease-in;
+}
+
+.circle-icon:hover {
+    width: 80px;
+    height: 80px;
+    background-color: var(--pr-color);
+    border-radius: 50%;
+    transition: all .1s ease-in;
+}
+
+/* Search */
+
+#search {
+    background-image: url(../asset/search_background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#search h2 {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+#search p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.input-cari {
+    height: 88px;
+}
+
+.input-cari:focus {
+    border: none;
+}
+
+.input-cari .button-secondary {
+    width: 200px;
+    height: 88px;
+    background-size: rgba(255, 255, 255, 0.8);
+    color: #397EB0;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 0 15px 15px 15px;
+}
+
+.input-cari .button-primary {
+    height: 88px;
+    background-color: #397EB0;
+    color: whitesmoke;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 0 15px 15px 0;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px 15px 0 0;
+}
+
+.nav-tabs .nav-link:active {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: var(--pr-color);
+    border-radius: 0 15px 15px 0;
+    font-weight: 500;
+}
+
+.nav-tabs .nav-link {
+    color: black;
+    border: none;
+}
+
+/* recommendations */
+#recommendations {
+    padding: 50px;
+}
+
+.recommendationsforyou {
+    color: #397EB0;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.harganya {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card {
+    height: 450px;
+    width: 95%;
+    border: none;
+    border-radius: 15px;
+}
+
+.card-body h4 {
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.card-body p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card:hover {
+    background: linear-gradient(170deg, var(--pr-color), #20608E, #113b58);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.card-master .card:hover {
+    color: white;
+    transition: all ease-in-out .2s;
+}
+
+/* Card  */
+.button-features {
+    background-color: #397EB0;
+    color: white;
+    height: 50px;
+    width: 240px;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#features h2 {
+    color: #397EB0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+
+}
+
+.card-features .familyroom {
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.card-features h5 {
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.card-features span {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.card-features button {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: white;
+    border: none;
+    background-color: #397EB0;
+    height: 35px;
+    width: 140px;
+    left: 544px;
+    top: 3540px;
+    border-radius: 15px;
+}
+
+.card-features .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    transition: all ease-in-out .2s;
+    opacity: 0;
+}
+
+.card-features .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 1;
+}
+
+.button-arrow-left {
+    border: none;
+    border-radius: 50%;
+    background-color: #397EB0;
+    width: 60px;
+    height: 60px;
+    margin-left: -20px;
+}
+
+.button-arrow-right {
+    border: none;
+    border-radius: 50%;
+    background-color: #397EB0;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+/* Contact */
+#contact {
+    background-image: url(../asset/contact\ background.png);
+    margin-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact .overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#contact .container {
+    padding: 190px 0 190px 0;
+}
+
+#contact h3 {
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+}
+
+#contact h6 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    margin: 25px 0 8px 0;
+}
+
+.contact a {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.linkrealhouse {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.card-contact {
+    width: 100%;
+    height: 445px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 55px 45px;
+}
+
+.card-contact h2 {
+    color: #397EB0;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    height: 75px o !important;
+    background: #ECECEC;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.form-floating label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #959595;
+}
+
+.button-contact {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    width: 100%;
+    height: 75px;
+    background: #397EB0;
+    border: none;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 270px;
+    background: black;
+}
+
+.copyright {
+    bottom: 1%;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer a {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.logo-realhouse {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}

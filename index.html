@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Logo Tittle -->
+    <link rel="icon" href="asset/logoTittle.png" type="image/x">
+
+    <title>Real House</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="asset/logoTittle.png" alt="" width="25" class="d-inline-block align-text-top me-2">
+                <b>Real House</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link active" aria-current="page" href="#"><b>HOME</b></a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#">OUR SERVICE</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#">FEATURE</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+
+                <div>
+                    <button class="button-primary">LOGIN</button>
+                    <button class="button-secondary">REGISTER</button>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <img id="banner" src="asset/banner2.jpg" alt="" class="position-absolute bottom-0 img-hero">
+
+    <!-- Hero  -->
+    <section id="hero">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-md-6 hero-tagline">
+                    <h1>Find Your Dream House</h1>
+                    <p> <b>Real House</b> provide the best home for you and your family <br> to live in a comfortable
+                        and quiet residential environment</p>
+
+                    <button class="button-lg-primary" href="#">FIND NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Service -->
+    <section id="ourService">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="ourservice">Our Service</div>
+                    <span class="sub-title">Real House here to be a solution for you</span>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-4 text-center">
+                    <div class="card-ourService">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="asset/iconNewProperty1.png" alt=""
+                                class="position-absolute top-50 start-50 translate-middle">
+                        </div>
+                        <h3 class="mt-3">New Property</h3>
+                        <p class="mt-3">Dream house is now a reality, buy a new house with the best facilities and a
+                            comfortable environment</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="card-ourService">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="asset/iconRentHouse1.png" alt=""
+                                class="position-absolute top-50 start-50 translate-middle">
+                        </div>
+                        <h3 class="mt-3">Rent House</h3>
+                        <p class="mt-3">Rent a beautiful house with your family,
+                            the best choice for your family's residence.
+                            Let’s find now</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="card-ourService">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="asset/iconBuyHouse1.png" alt=""
+                                class="position-absolute top-50 start-50 translate-middle">
+                        </div>
+                        <h3 class="mt-3">Buy House</h3>
+                        <p class="mt-3">Buy the best house at a good price, guaranteed quality from a trusted
+                            construction</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Search -->
+    <section id="search" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="findthebest">
+                        Find The Best Home For You
+                    </div>
+
+                    <div class="nowyoucansave">
+                        Now you can save all the time and hidden costs, with hundreds of great options
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10 mx-auto mt-5">
+
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="#buy" data-bs-toggle="tab" data-bs-target="#buy"
+                            type="button" role="tab" aria-controls="home" aria-selected="true">Buy</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="#sell" data-bs-toggle="tab" data-bs-target="#sell" type="button"
+                            role="tab" aria-controls="profile" aria-selected="false">Sell</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="#znewproperty" data-bs-toggle="tab" data-bs-target="#newproperty"
+                            type="button" role="tab" aria-controls="contact" aria-selected="false">New Property</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="myTabContent">
+
+                    <div class="tab-pane fade" id="buy" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="input-group input-cari mb-3">
+
+                            <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="asset/home_kecil.png" class="d-block d-lg-inline mx-auto" alt=""> House Type
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                            </ul>
+
+                            <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="asset/money_kecil.png" class="d-block d-lg-inline mx-auto" alt=""> Price
+                                Range</button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                            </ul>
+
+                            <input type="text" class="form-control" aria-label="Text input with dropdown button"
+                                placeholder="Search By Location, ID, Property">
+
+                            <button class="button-primary" type="button" id="button-addon2">Search</button>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="sell" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="input-group input-cari mb-3">
+
+                            <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="asset/home_kecil.png" class="d-block d-lg-inline mx-auto" alt=""> House Type
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                            </ul>
+
+                            <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="asset/money_kecil.png" class="d-block d-lg-inline mx-auto" alt=""> Price
+                                Range</button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                            </ul>
+
+                            <input type="text" class="form-control" aria-label="Text input with dropdown button"
+                                placeholder="Search By Location, ID, Property">
+
+                            <button class="button-primary" type="button" id="button-addon2">Search</button>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="newproperty" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="input-group input-cari mb-3">
+
+                            <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="asset/home_kecil.png" class="d-block d-lg-inline mx-auto" alt=""> House Type
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                            </ul>
+
+                            <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="asset/money_kecil.png" class="d-block d-lg-inline mx-auto" alt=""> Price
+                                Range</button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                            </ul>
+
+                            <input type="text" class="form-control" aria-label="Text input with dropdown button"
+                                placeholder="Search By Location, ID, Property">
+
+                            <button class="button-primary" type="button" id="button-addon2">Search</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-12 text-center">
+                    <div class="recommendationsforyou">
+                        Recommendations For You
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+                    <div class="card-master">
+                        <div class="card p-2" style="width: 22rem;">
+                            <img src="asset/rumah1.png" alt="">
+                            <div class="card-body">
+                                <div class="harganya">USD 10.000</div>
+                                <p class="mb-1 lh-sm">1631 W 3rd St, Los Angeles, CA 90017 <br> <span
+                                        class="text-danger">RENT</span></p>
+                            </div>
+
+                            <div class="card-fasilitas d-flex justify-content-between">
+                                <span>
+                                    <img src="asset/bedroom.png" alt=""> 3 Bedroom
+                                </span>
+                                <span>
+                                    <img src="asset/bathroom.png" alt=""> 2 Bathroom
+                                </span>
+                                <span>
+                                    <img src="asset/area.png" alt=""> 300m Area
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+                    <div class="card-master">
+                        <div class="card p-2" style="width: 22rem;">
+                            <img src="asset/rumah2.png" alt="">
+                            <div class="card-body">
+                                <div class="harganya">USD 10.000</div>
+                                <p class="mb-1 lh-sm">1631 W 3rd St, Los Angeles, CA 90017 <br> <span
+                                        class="text-danger">RENT</span></p>
+                            </div>
+
+                            <div class="card-fasilitas d-flex justify-content-between">
+                                <span>
+                                    <img src="asset/bedroom.png" alt=""> 3 Bedroom
+                                </span>
+                                <span>
+                                    <img src="asset/bathroom.png" alt=""> 2 Bathroom
+                                </span>
+                                <span>
+                                    <img src="asset/area.png" alt=""> 300m Area
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+                    <div class="card-master">
+                        <div class="card p-2" style="width: 22rem;">
+                            <img src="asset/rumah3.png" alt="">
+                            <div class="card-body">
+                                <div class="harganya">USD 10.000</div>
+                                <p class="mb-1 lh-sm">1631 W 3rd St, Los Angeles, CA 90017 <br> <span
+                                        class="text-danger">RENT</span></p>
+                            </div>
+
+                            <div class="card-fasilitas d-flex justify-content-between">
+                                <span>
+                                    <img src="asset/bedroom.png" alt=""> 3 Bedroom
+                                </span>
+                                <span>
+                                    <img src="asset/bathroom.png" alt=""> 2 Bathroom
+                                </span>
+                                <span>
+                                    <img src="asset/area.png" alt=""> 300m Area
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+                    <div class="card-master">
+                        <div class="card p-2" style="width: 22rem;">
+                            <img src="asset/rumah4.png" alt="">
+                            <div class="card-body">
+                                <div class="harganya">USD 10.000</div>
+                                <p class="mb-1 lh-sm">1631 W 3rd St, Los Angeles, CA 90017 <br> <span
+                                        class="text-danger">RENT</span></p>
+                            </div>
+
+                            <div class="card-fasilitas d-flex justify-content-between">
+                                <span>
+                                    <img src="asset/bedroom.png" alt=""> 3 Bedroom
+                                </span>
+                                <span>
+                                    <img src="asset/bathroom.png" alt=""> 2 Bathroom
+                                </span>
+                                <span>
+                                    <img src="asset/area.png" alt=""> 300m Area
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+                    <div class="card-master">
+                        <div class="card p-2" style="width: 22rem;">
+                            <img src="asset/rumah5.png" alt="">
+                            <div class="card-body">
+                                <div class="harganya">USD 10.000</div>
+                                <p class="mb-1 lh-sm">1631 W 3rd St, Los Angeles, CA 90017 <br> <span
+                                        class="text-danger">RENT</span></p>
+                            </div>
+
+                            <div class="card-fasilitas d-flex justify-content-between">
+                                <span>
+                                    <img src="asset/bedroom.png" alt=""> 3 Bedroom
+                                </span>
+                                <span>
+                                    <img src="asset/bathroom.png" alt=""> 2 Bathroom
+                                </span>
+                                <span>
+                                    <img src="asset/area.png" alt=""> 300m Area
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+                    <div class="card-master">
+                        <div class="card p-2" style="width: 22rem;">
+                            <img src="asset/rumah6.png" alt="">
+                            <div class="card-body">
+                                <div class="harganya">USD 10.000</div>
+                                <p class="mb-1 lh-sm">1631 W 3rd St, Los Angeles, CA 90017 <br> <span
+                                        class="text-danger">RENT</span></p>
+                            </div>
+
+                            <div class="card-fasilitas d-flex justify-content-between">
+                                <span>
+                                    <img src="asset/bedroom.png" alt=""> 3 Bedroom
+                                </span>
+                                <span>
+                                    <img src="asset/bathroom.png" alt=""> 2 Bathroom
+                                </span>
+                                <span>
+                                    <img src="asset/area.png" alt=""> 300m Area
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Card/Features  -->
+    <section id="features" class="mt-5 overflow-hidden">
+        <div class="container position-relative">
+            <div class="row mb-3">
+                <div class="col-lg-9 col-md-12 text-center text-lg-start">
+                    <h2>Features House</h2>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <button class="button-features">
+                        See More Features
+                        <img src="asset/arrow_tombol_fitur.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="container position-relative">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-start">
+
+
+                        <div class="card-features me-3 position-relative">
+                            <img src="asset/fiturrumah1.png" alt="">
+                            <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                                <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                                    <div class="familyroom">Family Room</div>
+                                    <span>Modern Minimalist House</span> <br> <br>
+                                    <button>See Details</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-features me-3 position-relative">
+                            <img src="asset/fiturrumah2.png" alt="">
+                            <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                                <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                                    <div class="familyroom">Family Room</div>
+                                    <span>Modern Minimalist House</span> <br> <br>
+                                    <button>See Details</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-features me-3 position-relative">
+                            <img src="asset/fiturrumah3.png" alt="">
+                            <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                                <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                                    <div class="familyroom">Family Room</div>
+                                    <span>Modern Minimalist House</span> <br> <br>
+                                    <button>See Details</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-features me-3 position-relative">
+                            <img src="asset/fiturrumah4.png" alt="">
+                            <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                                <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                                    <div class="familyroom">Family Room</div>
+                                    <span>Modern Minimalist House</span> <br> <br>
+                                    <button>See Details</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button class="button-arrow-left position-absolute start-0 top-50 translate-middle-y">
+                    <img src="asset/arrow start.png" alt="">
+                </button>
+
+                <button class="button-arrow-right position-absolute end-0 top-50 translate-middle-y">
+                    <img src="asset/arrow end.png" alt="">
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container-fluid overlay h-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Need a consultation? <br>Please contact our marketing <br>We will respond quickly</h3>
+                        <div class="contact">
+                            <h6>Contact</h6>
+
+                            <div class="mb-2">
+                                <img src="asset/icon alamat.png" alt="">
+                                <a href="#">1631 W 3rd St, Los Angeles, CA 90017</a>
+                            </div>
+
+                            <div class="mb-2">
+                                <img src="asset/icon telepon.png" alt="">
+                                <a href="#">1-1435-2365</a>
+                            </div>
+
+                            <div class="mb-2">
+                                <img src="asset/icon email.png" alt="">
+                                <a href="#">realhouse@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <h6>Social Media</h6>
+                        <a href="#" class="me-lg-3 me-1"><img src="asset/icon facebook.png" alt=""></a>
+                        <a href="#" class="me-lg-3 me-1"><img src="asset/icon instagram.png" alt=""></a>
+                        <a href="#" class="me-lg-3 me-1"><img src="asset/icon youtube.png" alt=""></a>
+                        <a href="#" class="linkrealhouse">realhouse</a>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card-contact w-100">
+                            <form>
+                                <h2>Do you have any questions?</h2>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com">
+                                    <label for="floatingInput" class="d-flex align-items-center">Enter your email
+                                        here</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com">
+                                    <label for="floatingInput" class="d-flex align-items-center">Your questions</label>
+                                </div>
+                                <button type="submit" class="button-contact">
+                                    Send
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="d-flex align-items-center position-relative">
+        <div class="container-fluid">
+            <div class="container footer">
+                <div class="row">
+                    <div class="col-md-7 d-flex align-items-center justify-content-md-center justify-content-center">
+                        <img src="asset/logoTittle.png" alt="" width="35px">
+                        <div class="logo-realhouse ms-2">Real House</div>`
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-evenly justify-content-center">
+                        <a href="#">Home</a>
+                        <a href="#">Our Service</a>
+                        <a href="#">Feature</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+                <div class="row position-absolute copyright start-50 translate-middle">
+                    <div class="col-12">
+                        <p class="text-center">Copyright Real Home All Right Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
